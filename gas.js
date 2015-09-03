@@ -19,7 +19,7 @@ function myFunction() {
 　　values[i] = [];
 
     var counter = 0;
-    var contents = threads[i].getMessages()[0].getBody().split("");
+    var contents = threads[i].getMessages()[0].getBody().split("<br> /");
 
     for (var j = 0; j < contents.length; j++) {
     　if (contents[j].match(/name|age/)) {
